@@ -2,8 +2,10 @@
    
 	function image(name, srcSmall, srcBig, type){
 		this.name = name;
-		this.src = srcSmall;
-		this.srcBig = srcBig;
+		//this.src = srcSmall;
+		//this.srcBig = srcBig;
+		this.src = "images/fb-placeholder.jpg";
+		this.srcBig = "images/fb-placeholder.jpg";
 		if (type != "header"){
 			this.type = "regular";
 		}else{
