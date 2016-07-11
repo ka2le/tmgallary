@@ -1,0 +1,63 @@
+body {
+    margin-top: 50px; /*rör ej, navbar funkar annars konstigt*/
+    font-size: 100%;
+}
+.odd{
+background-color: rgb(214, 220, 235);
+}
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('https://scontent-arn2-1.xx.fbcdn.net/t31.0-8/1796090_258015091044649_1553556361_o.jpg') no-repeat center center scroll;
+	height: 400px;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('http://placehold.it/1920x1080') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 30px 0;
+	height:20px;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
